@@ -1,0 +1,46 @@
+.img1 {
+    background-image: url('/im/1.jpg'); 
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative; 
+}
+.text-overlay {
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 80%; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+.text-overlay h1 {
+    font-size: 3rem; 
+    font-weight: bold;
+    margin-bottom: 1.25px;
+}
+.text-overlay p {
+    font-size: 2rem; 
+    line-height: 1.6;
+}
+
+.about{
+ width: 500px;
+ height: 500px;
+}
+.formats{
+    margin-top: 20px;
+    font-size: 4rem; 
+
+}
+
+.gaps {
+    margin-bottom: 1.5rem; /* Adjust as needed */
+}
+
+img{
+  height: 300px;
+}
